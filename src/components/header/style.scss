@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10rem;
+	border-bottom: 24px dashed #f1f1f1;
+}
+
+.header__logo {
+	background-color: black;
+	height: 64px;
+	width: 64px;
+	display: flex;
+	border-radius: 64px;
+	align-items: center;
+	justify-content: center;
+	color:#f1f1f1;
+}
+
+.header__logo-box {
+	display: flex;
+	align-items: center;
+}

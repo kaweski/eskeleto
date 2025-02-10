@@ -1,0 +1,50 @@
+:root {
+	--bg-color: #010314;
+
+	--subtitle-color: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	&:before,
+	&:after {
+		box-sizing: inherit;
+	}
+}
+
+.section {
+	&.ticker {
+		padding: 20px;
+	}
+}
+
+.subtitle {
+	font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1440 - 320)));
+	font-weight: 500;
+	text-align: center;
+	color: var(--subtitle-color);
+	opacity: 0.8;
+}
+
+.icon {
+	width: 24px;
+	min-width: 24px;
+	height: 24px;
+	min-height: 24px;
+	object-fit: contain;
+	display: block;
+	&.heart {
+		background: url(https://ig-launch.test-project.pp.ua/img/heart.svg) no-repeat
+			50% 50% / contain;
+	}
+}
+
+.logo {
+	width: 100%;
+	min-width: 150px;
+	height: 100%;
+	min-height: 30px;
+	object-fit: contain;
+}
